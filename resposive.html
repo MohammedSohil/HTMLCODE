@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .col-4 {
+            width: 33.33%;
+
+        }
+
+        .container {
+            width: 1140px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+
+        .row {
+            margin: 0 -15px;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        [class*="col-"] {
+            padding: 0 15px;
+            float: left;
+        }
+
+        .box {
+            background-color: #1B1717;
+            padding: 20px 20px;
+        }
+
+        .box h1 {
+            color: #fff;
+            font-size: 25px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+
+        }
+
+        .box p {
+            color: #fff;
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        .box-2 {
+            background-color: #C21A1A;
+        }
+
+
+        @media (max-width:991px) {
+            .col-4 {
+                width: 50%;
+                padding: 0 15px;
+                margin: 10px 0;
+
+            }
+        }
+
+        @media (max-width:767px) {
+            .col-4 {
+                width: 100%;
+                padding: 0 15px;
+                margin: 10px 0;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <h1>HOME DESIGN CONSULTATION</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et ad delectus atque
+                            molestiae, non iusto fugiat error consequatur, eius a, tempore numquam! Consectetur, unde!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box box-2">
+                        <h1>HOME DESIGN CONSULTATION</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et ad delectus atque
+                            molestiae, non iusto fugiat error consequatur, eius a, tempore numquam! Consectetur, unde!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <h1>HOME DESIGN CONSULTATION</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et ad delectus atque
+                            molestiae, non iusto fugiat error consequatur, eius a, tempore numquam! Consectetur, unde!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

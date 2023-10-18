@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>header</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: orange;
+
+        }
+
+        .container {
+            width: 1140px;
+            padding: 0 15px;
+            margin: 0 auto;
+
+        }
+
+        .clearfix {
+            overflow: auto;
+        }
+
+        ul,
+        li,
+        ol {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .image {
+            float: left;
+            padding: 10px 0;
+        }
+        .menu{
+            float: right;
+        }
+        .menu  li{
+            display:inline-block;
+        }
+        .menu li a {
+            display: inline-block;
+            padding: 18px 15px;
+            
+        }
+        .menu .anchor{
+            color: rgb(128, 73, 0);
+
+        }
+        .anchor:hover{
+            color: blueviolet;
+        }
+        .menu  li .btn{
+            background-color: red;
+            padding: 10px 15px;
+            color: whote;
+            border-radius: 4px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="clearfix">
+                <a href="#" class="image">
+                    <img src="images/Logo.jpg" alt="">
+
+                </a>
+                <ul class="menu">
+                    <li class="list"><a href="#" class="anchor">Home</a></li>
+                    <li class="list"><a href="#" class="anchor">Home</a></li>
+                    <li class="list"><a href="#" class="anchor">Home</a></li>
+                    <li class="list"><a href="#" class="anchor">Home</a></li>
+                    <li><a href="#" class="btn">Sign in</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+</body>
+
+</html>

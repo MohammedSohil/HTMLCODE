@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}header{
+    background-color: rgb(255, 231, 231);
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.your-logo {
+    float: left;
+    padding: 18px 10px;
+    margin-left: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu .anchor {
+    display: inline-block;
+    padding: 18px 15px;
+    color: gray;
+}
+.menu .btn{
+    padding: 6px 13px;
+    border: 1px solid #00ffffc2;
+    border-radius: 17px;
+    color: gray;
+}
+
+.menu .btn1{
+    background-color: aquamarine;
+    padding: 6px 13px;
+    border: 1px solid #507373c2;
+    border-radius: 17px;
+    color: gray;
+}

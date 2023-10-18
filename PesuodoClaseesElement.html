@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PesuodoClaseesElement</title>
+    <style>
+        /* input:checked {
+            width: 50px;
+            height: 50px;
+        }
+
+        input:disabled {
+            background-color: #FFF;
+        }
+
+        input:enabled {
+            background-color: red;
+            border: none;
+        }
+
+        p:empty {
+            background-color: orange;
+            height: 50px;
+            width: 100px;
+        }
+
+        ul li:first-child {
+            color: green;
+        }
+        ul li:last-child{
+            color: greenyellow;
+        }
+
+        ol li:first-of-type {
+            color: red;
+        }
+        input:in-range{
+            border: 2px solid #d0d043;
+            background-color: #ffff;
+        }
+        input:invalid{
+            border: 1px solid rgb(184, 184, 229);
+
+        }
+        p:lang(it){
+            background-color: pink;
+        }
+        h4:last-of-type{
+            color: orange;
+        } */
+        /* :not(p){
+            color: rgb(230, 191, 61);
+        } */
+        div p:nth-child(2){
+            color: rebeccapurple;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <!-- checked -->
+    <form>
+   
+    <input type="checkbox">Hindi
+    <input type="checkbox">English
+    <br>
+    <br>
+    <br>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Other
+    <br>
+    <br>
+    <br>
+    <!-- disabled -->
+    <input type="text" disabled placeholder="Enter your name">
+    <br>
+    <br>
+    <br>
+    <!-- enabled -->
+    <input type="text">
+    <br>
+    <br>
+    <br>
+     <!-- in-range -->
+     <input type="number" min="10" max="20">
+     <br>
+     <br>
+     <br>
+     <!-- invalid -->
+     <input type="email" value="infosohil01@gmail.com">
+     </form>
+    <!-- empty -->
+    <p></p>
+    <br>
+    <br>
+    <br>
+    <!-- first-child -->
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+
+    </ul>
+    <br>
+    <br>
+    <br>
+    <!-- first-of-type -->
+    <ol>
+        <li>first-1</li>
+        <li> two-2</li>
+        <li>three-3</li>
+        <li>four-4</li>
+
+    </ol>
+    <br>
+    <br>
+    <br>
+    <!-- lang -->
+   <p lang="it">I live in jaipur</p>
+<br>
+<br>
+<br>
+<!-- last-of-type -->
+<h4>hello</h4>
+<h4>hello</h4>
+<h4>hello</h4>
+<h4>hello</h4>
+<br>
+<br>
+<br>
+<br>
+<!-- not -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, minus.</p>
+<br>
+<br>
+<br>
+<!-- nth-child(n) -->
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vero!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+</div>
+</body>
+
+</html>

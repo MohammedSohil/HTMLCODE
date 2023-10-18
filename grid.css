@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row {
+    overflow: auto;
+    margin: 0 -15px;    
+}
+
+.box1 {
+    background-color: #ff9900;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+
+
+}
+
+
+.box2{
+    background-color: #ff6600;
+    height: 200px;
+}
+.col-4{
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.box3{
+    background-color: rgb(48, 130, 201);
+    height: 200px;
+    margin-top: 10px;
+
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+    padding: 0 15px;
+}
